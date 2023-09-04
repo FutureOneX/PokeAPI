@@ -1,0 +1,28 @@
+/* Stil für jedes PokeItem */
+.poke-item {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+/* Hover-Effekt */
+.poke-item:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Stil für den Namen */
+.poke-item h1 {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.poke-item p{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
